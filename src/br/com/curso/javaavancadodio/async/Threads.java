@@ -9,6 +9,10 @@ import br.com.curso.javaavancadodio.util.Utils;
  */
 public class Threads {
 
+    /**
+     * Utilizando Thread
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println(Utils.separator("Threads"));
         Thread generatePDF = new GeneratePDF();

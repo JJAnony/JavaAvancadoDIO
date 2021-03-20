@@ -4,8 +4,15 @@ import br.com.curso.javaavancadodio.util.Utils;
 
 import java.util.stream.IntStream;
 
-public class ParalleFactorial {
+/**
+ * Processamento Assincrono
+ */
+public class ParallelFactorial {
 
+    /**
+     * Utilizando Serial e Paralelo
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println(Utils.separator("Searial"));
         long startTime = System.currentTimeMillis();

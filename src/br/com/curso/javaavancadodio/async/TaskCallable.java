@@ -8,10 +8,17 @@ import java.util.List;
 import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
+/**
+ * Processamento Assincrono
+ */
 public class TaskCallable {
 
     private static final ExecutorService SERVICE = Executors.newFixedThreadPool(2);
 
+    /**
+     * Utilizando Callable
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println(Utils.separator("Callable"));
         House house = new House(new Bedroom(), new Bedroom());
