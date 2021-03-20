@@ -1,4 +1,4 @@
-package br.com.curso.javaavancadodio.javaten;
+package br.com.curso.javaavancadodio.javaTen;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,8 +27,6 @@ public class Inference {
 
             try (var reader = new BufferedReader(new InputStreamReader(connection.getInputStream()))) {
                 System.out.println(reader.lines().collect(Collectors.joining()).replaceAll(">", ">\n"));
-            } catch (IOException e) {
-                e.printStackTrace();
             }
         } catch (IOException ex) {
             ex.printStackTrace();
