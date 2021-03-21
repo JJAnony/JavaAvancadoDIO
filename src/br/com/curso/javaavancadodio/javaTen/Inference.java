@@ -11,14 +11,16 @@ import java.util.stream.Collectors;
  */
 public class Inference {
 
+    /**
+     * Utilizando Inferencia
+     * @param args
+     */
     public static void main(String[] args) {
         connectAndPrintURLJavaOracle();
     }
 
     /**
      * Conecta e Printa o conteudo da url do Java 10
-     *
-     * @throws IOException
      */
     private static void connectAndPrintURLJavaOracle() {
         try {
